@@ -1,0 +1,14 @@
+login: if you have a username and password, use that to login.
+
+sign Up: Sign up as a regular user (no admin privileges)
+
+sign Up as Admim: only people that have an admin password are allowed to create an admin account
+    Admin Password: youshallnotpass
+
+In Nav bar:
+    Admin: where you have all the admin settings.
+        Administer Users: to ban and unban regular Users
+        delete product: Gives a list of products with a delete button next to them
+        Add product: has a form that needs to be filled before adding the product to the database 
+    Theme: 
+        Changes the theme between normal and purple

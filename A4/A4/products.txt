@@ -1,0 +1,19 @@
+var dbuser='hm15mx';
+var dbpass='6021109';
+use hm15mx;
+db.auth(dbuser,dbpass);
+
+db.products.insertMany([
+{name:"Assassin's Creed Valhalla", cost:"70", desc:"Become Eivor, a mighty Viking raider and lead your clan from the harsh shores of Norway to a new home amid the lush farmlands of ninth-century England. Explore a beautiful, mysterious open world where you'll face brutal enemies, raid fortresses, build your clan's new settlement, and forge alliances to win glory and earn a place in Valhalla. England in the age of the Vikings is a fractured nation of petty lords and warring kingdoms. Beneath the chaos lies a rich and untamed land waiting for a new conqueror. Will it be you?", pic:"Products/ACV.jpg", tag:["RPG"]},
+{name:"Cyberpunk 2077", cost:"80", desc:"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.", pic:"Products/CyberPunk2077.jpg", tag:["RPG"]},
+{name:"Dark Souls III", cost:"50", desc:"One of the most hardest games you'll ever play. Caution, your room may be destroyed from rage.", pic:"Products/DarkSoulsIII.jpg", tag:["RPG"]},
+{name:"PS5", cost:"400", desc:"PS5 Specs: CPU: 8x Zen COres at 3.5GHz (Variable frequency) GPU: Custom RDNA 2-10.28 TFLOPS, 36 CUs at 2.23 GHz (variable frequency) Memory: 16GB GDDR6/256-bit RAM, 448GB/s. Storage Custom 825 GB SSD Expandable Storage - NVMe SSD Slot, USB HDD support Optical drive - 4K Ultra HD Blu-ray", pic:"Products/PS5.jpg", tag:["console"]}, 
+{name:"Xbox Series X", cost:"500", desc:"The Most Powerful Xbox ever: Powered by a custom-designed processor leverging AMD's latest Zen2 and RDNA 2 architecture. The new system on a chip (SOC) is built from for speed and performance, with 12 teraflops of processing power and compatible for four generations of games Designed for speed and Performance: Combination of hardware, a custom 1TB SSD and CPU, and deeper software integration. Cooling: Three primary channels for parallel air flow divide the heat load acroos multiple air streams to better manage the internal temperature of the console's subsystem's, including the slit motherboard and heat sink chassis", pic:"Products/XboxSeriesX.jpg", tag:["console"]},
+{name:"Demon Souls", cost:"90", desc:"From PlayStation Studios and Bluepoint Games comes a remake of the PlayStation classic, Demon’s Souls.", pic:"Products/DemonSouls.jpg", tag:["RPG"]},
+{name:"Witcher 3 Wild Hunt", cost:"40", desc:"As war rages on throughout the Northern Realms, you take on the greatest contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.", pic:"Products/Witcher3WH.jpg", tag:["RPG"]},
+{name:"Halo MCC", cost:"60", desc:"all the halo games in one, from halo to halo 4", pic:"Products/HaloMCC.jpg", tag:["shooter","RPG"]},
+{name:"Doom", cost:"40", desc:"play as a killing machine that just obliterates demons", pic:"Products/Doom.jpg", tag:["shooter","RPG"]},
+{name:"Forza Motor Sports 7", cost:"30", desc:"race in beautiful cars", pic:"Products/ForzaMS7.jpg", tag:["racing"]},
+{name:"FIFA 20", cost:"90", desc:"play soccer", pic:"Products/FIFA20.jpg", tag:["sports"]},
+{name:"Nier Automata", cost:"50", desc:"beautiful game with amazing music and combat.", pic:"Products/NierAutomata.jpg", tag:["RPG"]},
+]);

@@ -1,0 +1,310 @@
+/* Harmandeep Mangat | hm15mx | 6021109 */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0; 
+    background-color: black;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .header {
+    background-image: url("Pictures/header-pic.jpg");
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .topnav nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%; 
+      z-index: 9;
+    }
+  
+  .topnav {
+    overflow: hidden;
+    z-index: 9;
+  }
+    
+  .topnav nav li {
+      float: left;
+      border-right: 1px solid #bbb;
+      z-index: 9;
+    }
+    
+  .topnav nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+  .topnav nav li a:hover:not(.active) {
+      background-color: #111;
+    }
+  
+  .topnav .right {
+    float: right;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+  }
+
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit2 {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=radio] {
+      color: #fff;
+  }
+
+  .form {
+    height: 100%;
+    color: #fff;
+  }
+
+  .msg {
+      color: #fff;
+  }
+
+  .Slink {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.2% 23.2%;
+    border-radius: 4px;
+    
+  }
+
+  .Slink2 {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.2% 21%;
+    border-radius: 4px;
+    
+  }
+
+  .products-page {
+    height: 100%;
+  }
+
+  .products-page img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  .product-link {
+    position: relative;
+    left: 5px;
+    color: #fff;
+  }
+  
+  .product-link:hover {
+    color: red;
+  }
+  
+  .products-page img:hover {
+    box-shadow: 0 0 2px 1px blue;
+  }
+  
+  .cost {
+    position: relative;
+    left: 17px;
+    color: #fff;
+  }
+  
+  .box {
+    color: #fff;
+    width: 83%;
+    
+    text-align: right;
+  }
+  
+  .products-page th {
+    color: white;
+  }
+  
+  .products-page button {
+    border: none;
+    background: none;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .products-page button:hover {
+    font-size: 90%;
+  }
+
+  .submit{
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .responsive2 {
+    max-width: 409px;
+    max-height: 487px;
+    width: 100% !important;
+    height: auto !important;
+    float: left;
+  }
+
+  .product-body {
+    height: 100%;
+  }
+  
+  .product-body h3 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'SemyonSovietRegular';
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .product-body p {
+    height: auto;
+    margin-bottom: 60px;
+    color: #fff;
+    position: relative;
+    left: 17px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 2px 1px blue;
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .listing {
+    width: 100%;
+  }
+  
+  .listing  {
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+  }
+
+  #wrapper {
+    height: 100%;
+    color: #fff;
+  }
+
+  .admin-link {
+    position: relative;
+    left: 5px;
+    color: orchid;
+  }
+  
+  .admin-link:hover {
+    color: silver;
+  }
+
+  .printable {
+    font-size: 17px;
+    color: aquamarine;
+  }
+
+  .printable:hover {
+    color: violet;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .sharedlist {
+    color: sandybrown;
+    font-size: 17;
+  }
+
+  .sharedlist:hover {
+    color: springgreen;
+  }
+
+  .contact-body {
+    border: solid rgb(68, 68, 68);
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 100px;
+    word-wrap: break-word;
+  }
+  
+  .contact-body li {
+    color: #fff;
+    padding: 10px;
+  }
+
+  #footer {
+    max-height: 60px;
+    margin-bottom: 0px;
+    position: static;
+    background-color: rgb(32, 32, 32);
+    color: gray;
+    text-align: left;
+    font-style: italic;
+  }
