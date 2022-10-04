@@ -1,2 +1,2 @@
 # Wishlist_website
-A wish list website that allows the users to create a account and add items to their wish list that are saved to a database or if the user isn't signed in, it use the local storage
+A wish list website with admin capabilities. If a user logs in with an admin account, they are able to add/delete products from the database which reflects to the website. They are also granted authority over public users and are able to ban accounts. Public users that are signed in are able to add products to their wish list , which is then saved into a database. They are also able to share their wish list with other users.  Users that are not signed in are only able to save their wish list to the local storage.
